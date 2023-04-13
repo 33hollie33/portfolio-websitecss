@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ededf6;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between ;
+  column-gap: 10px;
+}
+
+.name-label {
+  padding: 7px;
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: 700;
+  background-color: #582ba1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* using the display flex and the flex wrap to make it more accessible on other devices and when minmizing the screen */
+
+.navigation {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #000000;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  font-family: monospace;
+  color:  #582ba1;
+  font-weight: 400px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: 4px solid  #582ba1;
+}
+
+.about-me-wrap,
+.work-wrap {
+  width: 95%;
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner-section {
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("banner.jpg");
+}
+/* encorpated the img URL for the banner to make it visiable on the website*/
+
+.label-right {
+  width: 25%;
+  padding: 20px 10px;
+  background-color: #582ba1;
+  color: black;
+  float: right;
+  margin-top: 10%;
+  font-family: monospace;
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.paragraph-wrap {
+  display: flex;
+  flex-direction: column;
+  border-left: 7px solid black;
+  width: 70%;
+  color: solid black;
+  font-family: monospace;
+  font-size: medium;
+  padding: 0 20px;
+}
+/* when using the display flex and column it allows the text to still be inline when minimized or used on different devices*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 10px;
+}
+.section-heading {
+  width: 20%;
+  height: 150px;
+  font-family: monospace;
+  color: #582ba1;
+  font-size: 60px;
+  text-align: right;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* using the display flex and the flex wrap to make it more accessible on other devices and when minmizing the screen */
+
+.large-box {
+  width: 97%;
+  border: 5px solid #582ba1;
+  margin-bottom: 10px;
+}
+
+.large-box img {
+  width:100%;
+  margin-inline-end: auto;  
+  margin-inline-start: auto;       
+}
+/* margin-inline tag allows the content to flow with the page */
+
+.medium-box {
+  width: calc(50% - 5px);
+  box-sizing: border-box;
+  border: 5px solid #582ba1;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+/* by adding the calc for the width it has allowed the boxes to stay next to eachother when you minimize the screen*/
+
+.calculator {
+  width: 50%;
+}
+
+.led-wall {
+width: 50%;
+}
+/* used a percentage for the pictures so it can adjust when minizing the screen*/
+
+.contact-me {
+  font-family: monospace;
+  color: black;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+}

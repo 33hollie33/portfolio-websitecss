@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Holly's Portfolio</title>
+  <!--Changes the tab to make it look more professional -->
+</head>
+<!--used semantic HTML throughout the code -->
+<body>
+  <header>
+    <section class="row navigation">
+      <section class="name-label"> Holly </section>
+      <nav class="row">
+        <a href="#About-me"> About me </a>
+        <a href="#Work"> Work </a>
+        <a href="#contact-me"> Contact me </a>
+      </nav>
+    </section>
+  </header>
+
+  <section class="banner-section">
+    <section class="label-right">
+    <!--Added classes for CSS-->
+      <p> My portfolio </p>
+    </section>
+  </section>
+  <section class="about-me-wrap row">
+    <h1 class="section-heading">About Me</h1>
+    <span class="paragraph-wrap">
+      <p class="paragraph-one" id="About-me">
+        I am Holly. I am a 26 year old old based in Birmingham, United Kingdom. I am currently in the Healthcare
+        industry but I am aspiring to
+        break into one of the fastest-growing careers in today's economy; the Techology industry. I am currently
+        undertaking a six month Coding bootcamp with the University of Birmingham,
+        with the aim of being a full-stack devloper. I currently have a patricular intested in backend development.
+        Some of the languages and framekworks I am learning are:
+        HTML5, CSS3, Javascript, jQuery, Bootsrrap, Express.js, React.js, Node.js, Database Theory,
+        Bookshelf.js, MongoDB, MySQL, Java, Command Line, Git.
+      </p>
+    </section>
+  </section>
+  <section>
+    <section class="picture-me"> </section> <img src="./images/myself.JPG" alt="Picuture of Holly" class=center>
+  </section>
+<!--Added an alt tag to make it more accessible to a wider audience and gave it a class to enable changes on CSS-->
+  <section class="work-wrap row" id="Work">
+    <!--Added a id from the nav to be able to go to different sections -->
+    <h1 class="section-heading">Work</h1>
+
+    <section class="paragraph-wrap">
+      <section class="large-box">
+        <section class="label-left">
+          <p><strong> Refractoring Code </strong> <a href="https://github.com/33hollie33/refactoring-code-semantic-HTML"> </a> </p>
+          <p> HTML and CSS </p>
+          <a href="https://github.com/33hollie33/refactoring-code-semantic-HTML">
+          <img src="./images/semantic-html.png" alt="printscreen of Horiseon website" class="large-box.img"> </a>
+          <!--Added the 'anchor' tag within the image to add the link to my github so employers can access previous code work -->
+        </section>
+      </section>
+<!--Added two small boxes using the section tag below the large box as a part of the criteria, 
+added a class to them both for CSS purposes -->
+      <section class="row">
+        <section class="medium-box">
+          <section class="label-left">
+            <p><strong> LED Wall </strong></p>
+            <p>Node/ IoT</p>
+          </section>
+          <img src="./images/LEDwall.webp" alt="Led Wall" class="led-wall">
+        </section>
+<!-- Added a alt tag to make the website more accessible to a wider audience -->
+        <section class="medium-box">
+          <section class="label-left">
+            <p><strong> Calculator </strong></p>
+            <p>Node/ IoT</p>
+          </section>
+          <img src="./images/calculator.png" alt="calculator" class="calculator">
+        </section>
+      </section>
+    </section>
+  </section>
+  <!-- Added a footer tag and encorporated details on how to contact me, included a link to linkedin and Github so employers
+  can see previous work and employer history !-->
+  <footer class="contact-me" id="contact-me">
+    <p>Contact me: Mobile: +44493255151 Email:
+      hollybarnhurst@gmail.com <a href=https://github.com/33hollie33> Github </a>
+      <a href="https://www.linkedin.com/in/holly-b-b000501a6"> linkedin</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
